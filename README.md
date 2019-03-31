@@ -1,29 +1,21 @@
-# sao-tactical-design-code
+# Tactical Design Code
 
-> Frontend scaffold for tactical design
+> Frontend scaffold for tactical design.
 
-## Usage
+フロントエンドコーディング環境の雛形を作成します。
 
-Install [SAO](https://github.com/saojs/sao) first.
-
-```bash
-yarn global add sao
-# or
-npm i -g sao
-```
-
-### From npm
+## 使い方
 
 ```bash
-sao tactical-design-code my-project
+$ npx tactical-design-code <Project Name>
 ```
 
-### From git
+npm v5.2.0 以上が必要です。  
+[Node](https://nodejs.org/ja/) の最新版をインストールすればOKです。
 
-```bash
-sao masahiroharada/sao-tactical-design-code my-project
-```
+## 機能
 
-## License
-
-MIT &copy; [masahiroharada](github.com/masahiro harada)
+- Scss → CSS
+- EJS → HTML
+- Babel
+- BrowserSync

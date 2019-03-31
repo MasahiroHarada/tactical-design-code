@@ -1,6 +1,6 @@
 {
   "name": "tactical-design-code",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Frontend scaffold for tactical design",
   "bin": "cli.js",
   "repository": {

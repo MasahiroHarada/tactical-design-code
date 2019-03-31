@@ -1,0 +1,26 @@
+<%%
+const context = {
+  title: 'SAMPLE SITE',
+  description: 'THIS IS A SAMPLE SITE'
+}
+%>
+
+<%% function head() { %>
+  <!-- <link rel="stylesheet" href="/css/app.css" /> -->
+<% } %>
+
+<%% function content() { %>
+  <section>
+    <h1>Index Page</h1>
+    <figure>
+      <img src="/images/gulp.svg" alt="" />
+    </figure>
+    <p><button class="button">Push me</button></p>
+  </section>
+<% } %>
+
+<%% function js() { %>
+  <!-- <script src="/js/app.js"></script> -->
+<% } %>
+
+<%% include ./layouts/_default %>

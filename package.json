@@ -1,0 +1,24 @@
+{
+  "name": "tactical-design-code",
+  "version": "0.1.0",
+  "description": "Frontend scaffold for tactical design",
+  "bin": "cli.js",
+  "repository": {
+    "url": "git+https://github.com/MasahiroHarada/tactical-design-code.git",
+    "type": "git"
+  },
+  "author": "Masahiro Harada <poe.422@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "cli.js",
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}

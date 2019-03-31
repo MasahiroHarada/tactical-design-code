@@ -1,0 +1,19 @@
+// -------------------------------------
+// 要素に付与するスタイル
+// -------------------------------------
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  background-color: $color-background;
+  color: $color-text;
+  font-family: $font-family;
+}
+
+// 例
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
